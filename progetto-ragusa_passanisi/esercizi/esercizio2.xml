@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<!-- Esercizio 2: annidare in maniera scorretta un documento XML e validarlo-->
-<body>
-    <p>
-    Esempio di paragrafo non annidato e non chiuso correttamente
-</body>
-    </p>
