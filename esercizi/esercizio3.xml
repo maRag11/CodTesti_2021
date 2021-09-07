@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Esercizio 3: validare il file non corretto e sistemare gli errori-->
+
+<noNested>
+
+    <nested>
+        <figlio>
+            <figliofiglio>contenuto figliofiglio</figliofiglio>
+            contenuto nodo figlio
+        </figlio>
+        questo elemento è annidato correttamente
+    </nested>
+
+    <!-- L'elemento <error> è figlio di <nogood>, quindi il tag va chiuso prima di chiudere l'elemento padre. In questo modo si annidano correttamente gli elementi della gerarchia-->
+    <nogood>
+        <error>
+            qui ci sono più gerarchie
+        <!-- Aggiunta di un elemento figlio -->
+            <child>
+                elemento figlio
+            </child>
+        </error>
+        <!-- Aggiunta di un elemento fratello -->
+        <sibling>
+            elemento fratello
+        </sibling>
+    </nogood>
+       
+</noNested>
